@@ -1,0 +1,265 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+header{
+  background-color: #fff;
+  opacity: 0.9;
+  width: 100%;
+  position: fixed;
+   padding: 15px 40px;
+   
+}
+
+header a{
+  text-decoration: none;
+}
+
+.logo{
+ font-size: 30px;
+ font-family:serif; 
+ color: rgb(8, 5, 5);
+ font-weight: bold;
+}
+
+
+.header-icons{
+  font-size: 30px;
+  color: rgb(200, 106, 106);
+  padding-bottom: 3px; 
+ }
+
+.logo span{
+color: rgb(165, 59, 59);
+}
+
+.middle-link{
+ color: rgb(172, 88, 88);
+  font-size: 17px;
+  margin-left: 17%;
+  font-family: Arial, sans-serif;
+  
+}
+
+.middle-link2{
+  color: rgb(172, 88, 88);
+  font-size: 17px;
+  margin-left: 3%;
+  font-family: Arial, sans-serif;
+}
+
+.book{
+  float:right;
+  font-size: 17px;
+  color: #fff;
+  background-color:rgba(31, 9, 9, 0.65);
+  padding: 10px 10px; 
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.books{
+  float:right;
+  color: rgba(31, 9, 9, 0.65);
+  font-size: 35px;
+  padding: 0  15px; 
+}
+
+.book:hover{
+  background: #fff;
+ color: #000;
+}
+
+
+.flex-div{
+  display: flex;
+}
+
+img{
+ width: 100%; 
+}
+
+
+h6{
+  position: absolute;
+  bottom: 37%;
+  left: 12%;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 100px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.p-details{
+  position: absolute;
+  bottom: 2%;
+  left: 10%;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  line-height: 40px;
+  margin-left: 30px;
+}
+
+.p-lastchild{
+  background-color: #faeeee;
+  color: #000;
+  text-align: center;
+  padding: 5px 0;
+  margin-top: 20px;
+  width: 70%
+}
+
+form{
+  position: relative;
+  right: 10%;
+  top:50%;
+}
+
+.words-image{
+  width: 1300px;
+  margin: 10% auto;
+  display: flex;
+  justify-content: space-between;
+   
+}
+
+.feature-list{
+  text-align: center;
+}
+.words-image h4{
+  color: rgb(172, 88, 88);
+  font-size: 15px;
+  font-family: serif;
+  margin: 0 40px;
+}
+
+.words-image h5{
+  color: rgb(172, 88, 88);
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: serif;
+  /* border-bottom: 2px solid rgb(172, 88, 88); */
+  
+  
+
+}
+
+.words-image p{
+  font-size: 50px;
+  font-family: sans-serif;
+  color: rgb(165, 59, 59);
+  margin-bottom: 5px;
+}
+
+.words-image h3{
+  color: rgb(128, 128, 128);
+  
+  font-size: 15px;
+  line-height: 20px;
+  margin: 25px 0;
+}
+
+.words-image img{
+  width: 90%;
+  margin-left: 10%;
+  
+}
+
+ul li{
+list-style: none;
+margin:12px  0;
+font-size: 17px;
+font-family: sans-serif;
+color: rgb(128, 128, 128);
+}
+
+.icons{
+  margin: 0 5px;
+  font-size: 15px;
+}
+
+.rooms-info{
+  background-color: rgb(251, 255, 255);
+}
+
+.rooms-info h4{
+  text-align: center;
+  font-size: 40px;
+  color: rgb(197, 124, 124);
+  border-bottom: 1px solid rgb(172, 88, 88);
+  font-family: serif;
+  width: 14%;
+  margin: 0 35%;
+  font-weight: 200;
+  padding-top: 50px;
+ 
+}
+
+.img-div{
+  width: 1230px;
+  margin:5% auto;
+  display: flex;
+  
+}
+
+.img-div img{
+  width: 90%;
+  
+}
+
+.img-container{
+  width: 60%;
+  background-color: white;
+}
+
+.img-container h3{
+  text-align: center;
+  font-weight: 200;
+  font-family: sans-serif;
+  color: rgb(42, 35, 35);
+  padding: 15px;
+
+}
+
+.img-container h5{
+  text-align: center;
+  font-weight: 400;
+  font-family: san-serif;
+  color:rgb(128, 128, 128);
+  font-size: 18px;
+}
+
+footer{
+  background-color: rgb(3, 3, 5);
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 5%;
+  margin-bottom: 5%;
+}
+
+footer a{
+  text-decoration: none;
+  padding-top: 20px;
+  font-size: 10px;
+}
+
+footer h4{
+  color: white;
+  font-size: 20px; 
+  padding-top: 30px;
+  font-weight: 200;
+}
+
+footer .logo{
+  color: #fff;
+}
+
+footer .logo span{
+  color: rgb(218, 208, 151)
+}
